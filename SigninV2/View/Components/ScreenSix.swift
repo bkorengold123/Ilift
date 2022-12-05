@@ -54,7 +54,7 @@ struct ScreenSix: View {
                         .overlay(Rectangle().stroke(Color.white, lineWidth: 0.5).frame(height: 45))
                     
                 }
-                Text("Forgot Passwordad")
+                Text("Forgot Password")
                     .modifier(CustomTextM(fontName: "NunitoSans-Bold", fontSize: 16, fontColor: Color.white))
                     .padding(.bottom,30)
                 
